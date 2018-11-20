@@ -1,0 +1,49 @@
+.system {
+    background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ),  url("/img/102.jpg");
+    background-size: cover;
+}
+
+.system__content {
+    justify-content: center;
+}
+
+.systen__title {
+    display: none;
+    font-family: 'Ubuntu-medium';
+    color: dimgray;
+    font-size: 40px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.system__block {
+    display: flex;
+}
+
+.system__list {
+    color: #fff;
+    width: 50%;
+}
+
+.system__item {
+    display: flex;
+    font-family: 'Ubuntu';
+    margin: 2rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.item-pic {
+    width: auto;
+}
+
+.item__content {
+   padding-left: 1rem;
+}
+
+.item-title {
+    color: aqua;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    font-family: 'Ubuntu-bold';
+}

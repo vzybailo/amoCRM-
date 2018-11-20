@@ -1,0 +1,190 @@
+.work {
+    background: #eff3fc;
+    display: flex;
+    justify-content: center;
+}
+
+.work__title {
+    font-family: 'Ubuntu-medium';
+    color: cadetblue;
+    font-size: 40px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.work__title p {
+    color: gray;
+    font-size: 20px;
+}
+
+.work__content {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu-medium';
+    font-size: 18px;
+}
+
+.work__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.work__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 15px 0 15px ;
+    width: 33%;
+    height: 200px;
+}
+
+.work__item-pic {
+    width: 50px;
+}
+
+.work__item p {
+    padding: 16px;
+    text-align: center;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result__text {
+    width: 60%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.conclusion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    font-size: 21px;
+    font-family: 'Ubuntu-medium';
+}
+
+.conclusion__text {
+    width: 70%;
+    text-align: left;
+    font-family: 'Ubuntu';
+}
+
+.open-button {    // стили кнопки для отрытия модального окна
+    cursor: pointer;
+    background-color: yellow;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Ubuntu';
+    font-size: 15px;
+
+    &:hover {
+        color: black;
+        background-color: aqua;
+    }
+}
+
+.modal-overlay {   // затемнил фон для формы
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.closed {
+    display: none;  // скрыли затемненный фон
+}
+
+.modal {    // контейнер для формы
+    display: none;
+    width: 50%;
+    height: 70%;
+    max-width: 100%;
+    max-height: 100%;
+    position: fixed;
+    z-index: 100;  // больше чем у фона должен быть
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 10px;
+}
+
+.modal .close-button {
+        cursor: pointer;
+        position: absolute;
+        z-index: 1;
+        top: 10px;
+        right: 20px;
+        color: gray;
+        padding: 5px 10px;
+        font-size: 1.3rem;
+        font-family: 'Ubuntu-medium';
+        text-transform: uppercase;
+    }
+
+.form__wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 20px 50px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__title {
+    color: black;
+    padding-bottom: 40px;
+    font-size: 2rem;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 3rem;
+    color: black;
+    padding: 0.5rem;
+    outline: 0;
+    width: 50%;
+}
+
+.btn-send {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: aqua;
+    padding: 0.8rem;
+    text-transform: uppercase;
+    font-size: 20px;
+
+    &:hover {
+        background-color: rgb(240, 227, 52);
+    }
+}
+  
+  
+ 
+  
+  
+
+  
+
+

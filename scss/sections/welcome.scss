@@ -1,0 +1,136 @@
+.heading {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5) rgba(255, 255, 255, 0.8)), url("/img/workcomp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-pic {
+    width: 38px;
+    padding-right: 10px;
+}
+
+.header__logo-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: yellow;
+    font-family: 'Unisans-heavy';
+    font-size: 25px;
+}
+
+.header__phone-link {
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: 'Unisans-thin';
+    border: 1px solid gray;
+    padding: 8px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+
+    &:hover {
+        border: solid  0.5px #fff;
+        color: #fff;
+    }
+}
+
+.block {
+    position: absolute;
+    z-index: 5;
+    color: aliceblue;
+    width: inherit;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: center;
+}
+
+.nav__item {
+    margin: 10px 20px;
+}
+
+.nav__item-link {
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Ubuntu';
+
+    &:hover {
+        color: yellow;
+        text-decoration: underline;
+    }
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    height: 100vh;
+}
+
+.content__title {
+    display: flex;
+    align-items: baseline;
+    font-size: 40px;
+    font-family: 'Ubuntu-bold';
+
+    
+}
+
+.content__title-pic {
+    margin-left: 25px;
+
+}
+
+.content__title-about {
+    font-size: 30px;
+    font-family: 'Unisans-thin';
+    text-align: left;
+}
+
+.content__text {
+    font-size: 30px;
+    font-family: 'Ubuntu-bold';
+    margin-top: 20px;
+}
+
+.content__btn {
+    margin-top: 50px;
+}
+
+.content__btn-link {
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: darkslategrey;
+    font-size: 20px;
+    font-family: 'Ubuntu-medium';
+    border-radius: 5px;
+
+    &:hover {
+        background-color: green; 
+        color: blanchedalmond;
+    }
+}
+
+.arrow {
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+}
