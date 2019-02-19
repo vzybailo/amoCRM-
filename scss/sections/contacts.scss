@@ -1,0 +1,112 @@
+.contacts {
+    background-image: linear-gradient( rgba(100, 173, 195, 0.8),  rgba(0, 0, 0, 0.58) ), url('/img/main-bg.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.contacts__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.contacts__title {
+    padding-top: 2rem;
+    color: aliceblue;
+    font-family: 'Ubuntu-medium';
+    font-size: 40px;
+}
+
+.contact__title-about {
+    font-family: 'Ubuntu-medium';
+    font-size: 20px;
+    margin-top: 20px;
+    color: aquamarine;
+}
+
+form {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contacts-row {
+    padding: 1rem;
+    border-radius: 0;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    font-size: 1rem;
+    color: #fff;
+    border-bottom: 2px solid #3d528e;
+    font-family: "Ubuntu";
+
+}
+
+.contacts-btn {
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 0;
+    border: 0;
+    outline: none;
+    background-color: darkcyan;
+    color: black;
+    font-family: 'Ubuntu';
+    font-size: 15px;
+    margin-top: 2rem;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: green; 
+        color: black; 
+    }
+}
+
+.footer {
+    width: 95vw;
+    padding: 1rem;
+    border-top: #3d528e solid 2px;
+}
+
+.footer_block {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socials__list {
+    display: flex;
+}
+
+.socials__item {
+    padding-left: 1rem;
+}
+
+.socials__link {
+    display: block;
+    width: 50px;
+    height: 50px;
+    
+    background: url('/img/sprite/sprites.png') 0 0 no-repeat; 
+}
+
+.socials__link-insta {
+    background-position: 0px 0px;
+}
+
+.socials__link-vk {
+    background-position: -70px 0px;
+}
+
+.socials__link:hover {
+    background-position-y: bottom;
+}

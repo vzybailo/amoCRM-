@@ -48,6 +48,12 @@
     text-align: center;
 }
 
+.work__item-img span {
+    color: chocolate;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
 .result {
     display: flex;
     justify-content: center;
@@ -79,10 +85,9 @@
 
 .open-button {    // стили кнопки для отрытия модального окна
     cursor: pointer;
-    background-color: yellow;
+    background-color: aquamarine;
     padding: 20px;
     border: none;
-    border-radius: 10px;
     text-transform: uppercase;
     color: black;
     font-family: 'Ubuntu';
@@ -152,9 +157,10 @@
 }
 
 .form__title {
+    font-family: 'Ubuntu-medium';
     color: black;
     padding-bottom: 40px;
-    font-size: 2rem;
+    font-size: 1,5rem;
 }
 
 .form__row {
@@ -168,19 +174,19 @@
 
 .btn-send {
     cursor: pointer;
+    background-color: aquamarine;
+    padding: 15px;
     border: none;
-    border-radius: 5px;
-    background-color: aqua;
-    padding: 0.8rem;
     text-transform: uppercase;
-    font-size: 20px;
+    color: black;
+    font-family: 'Ubuntu';
+    font-size: 15px;
 
     &:hover {
-        background-color: rgb(240, 227, 52);
+        color: black;
+        background-color: aqua;
     }
 }
-  
-  
  
   
   

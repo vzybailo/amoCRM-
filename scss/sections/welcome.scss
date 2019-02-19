@@ -16,6 +16,7 @@
 .header__logo {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .header__logo-pic {
@@ -26,10 +27,17 @@
 .header__logo-link {
     text-decoration: none;
     text-transform: uppercase;
-    color: yellow;
+    color: white;
     font-family: 'Unisans-heavy';
     font-size: 25px;
 }
+
+.header__logo-link span {
+    color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
 
 .header__phone-link {
     color: antiquewhite;
@@ -67,7 +75,7 @@
     color: aliceblue;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Ubuntu';
 
     &:hover {
@@ -104,9 +112,10 @@
 }
 
 .content__text {
-    font-size: 30px;
-    font-family: 'Ubuntu-bold';
+    font-size: 34px;
+    font-family: 'Ubuntu-medium';
     margin-top: 20px;
+    color: gold;
 }
 
 .content__btn {
@@ -118,13 +127,13 @@
     color: aliceblue;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: darkslategrey;
+    background-color: green;
     font-size: 20px;
     font-family: 'Ubuntu-medium';
-    border-radius: 5px;
+    
 
     &:hover {
-        background-color: green; 
+        background-color: forestgreen; 
         color: blanchedalmond;
     }
 }

@@ -1,0 +1,37 @@
+.we {
+    background-image: url(/img/direct-bg.png);
+    background-color: #eff3fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.we__title {
+    font-size: 40px;
+    color: cadetblue;
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Ubuntu-medium';
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.we__list {
+    font-family: 'Ubuntu-medium';
+    font-size: 18px;
+}
+
+.we__item {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.we__item-pic {
+    margin-right: 1rem;
+}
+
+.we_content {
+    display: flex;
+}
