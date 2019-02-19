@@ -16,9 +16,8 @@
                 <div class="container ">
                     <div class="block">
                         <header class="header">
-                            <div class="header__logo">
-                                <img src="/img/icons8-переключатель-вкл-filled-100.png" class="header__logo-pic" alt="">   
-                                <a href="" class="header__logo-link"> [ integrator ] </a> 
+                            <div class="header__logo">      
+                                <a href="" class="header__logo-link"> crm <span>4</span>u </a> 
                             </div>
                             <div class="header__menu">
                                 <nav class="nav">
@@ -30,7 +29,13 @@
                                             <a href="" class="nav__item-link" >Преимущества</a>
                                         </li>
                                         <li class="nav__item">
+                                            <a href="" class="nav__item-link">Как работаем</a>
+                                        </li>
+                                        <li class="nav__item">
                                             <a href="" class="nav__item-link">Цены</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="" class="nav__item-link">О нас</a>
                                         </li>
                                         <li class="nav__item">
                                             <a href=""class="nav__item-link" >Контакты </a>
@@ -46,7 +51,7 @@
                             <div class="about__content">
                                 <div class="content__title"> Внедрение <img src="/img/amo-bottom.png" alt="" class="content__title-pic"> </div> 
                                 <div class="content__title-about" >автоматизация отдела продаж</div> 
-                                <div class="content__text">Внимательное  отношение к клиентам и прибыли</div>
+                                <div class="content__text">Увеличьте продажи на 20% за 1 месяц использования</div>
                                 <div class="content__btn">
                                     <a href="" class="content__btn-link">Бесплатный аудит</a>
                                 </div>
@@ -167,29 +172,47 @@
                 <div class="work__content">
                     <ul class="work__list">
                         <li class="work__item">
-                            <div class="work__item-img"><img src="/img/numbers/1.png" class="work__item-pic" alt=""></div> 
+                            <div class="work__item-img">
+                                <img src="/img/icons/list.png" class="work__item-pic" alt="">
+                                <span>1</span>
+                            </div> 
                             <p>Проанализируем и поможем автоматизировать бизнес-процессы продаж в вашей компании </p> 
                         </li>
                         <li class="work__item">
-                            <div class="work__item-img"><img src="/img/numbers/2.png" class="work__item-pic" alt=""></div>
+                            <div class="work__item-img">
+                                <img src="/img/icons/base.png" class="work__item-pic" alt="">
+                                <span>2</span>
+                            </div>
                             <p>Загрузим вашу текущую клиентскую базу в CRM-систему, сохранив все ваши данные </p>
                         </li>
                         <li class="work__item">
-                            <div class="work__item-img"><img src="/img/numbers/3.png" class="work__item-pic" alt=""></div>
+                            <div class="work__item-img">
+                                <img src="/img/icons/settings-orange.png" class="work__item-pic" alt="">
+                                <span>3</span>
+                            </div>
                             <p>Настроим amoCRM и выстроим воронку продаж под специфику и потребности вашего бизнеса </p>
                         </li>
                     </ul>
                     <ul class="work__list">
                         <li class="work__item">
-                            <div class="work__item-img"><img src="/img/numbers/4.png" class="work__item-pic" alt=""></div>
+                            <div class="work__item-img">
+                                <img src="/img/icons/chat-orange.png" class="work__item-pic" alt="">
+                                <span>4</span>
+                            </div>
                             <p>Проведем настройку телефонии и интеграцию системы с другими, нужными вам сервисами </p>
                         </li>
                         <li class="work__item">
-                            <div class="work__item-img"><img src="/img/numbers/5.png" class="work__item-pic" alt=""></div>
+                            <div class="work__item-img">
+                                <img src="/img/icons/employees.png" class="work__item-pic" alt="">
+                                <span>5</span>
+                            </div>
                             <p>Обучим ваших менеджеров, проконсультируем руководителей по вопросам CRM-системы </p>
                         </li>
                         <li class="work__item">
-                            <div class="work__item-img"><img src="/img/numbers/6.png" class="work__item-pic" alt=""></div>
+                            <div class="work__item-img">
+                                <img src="/img/icons/bar-chart-orange.png" class="work__item-pic" alt="">
+                                <span>6</span>
+                            </div>
                             <p>Проконсультируем правильность работы и внесем рекомендации по работе в системе</p>
                         </li>
                     </ul>
@@ -198,7 +221,7 @@
                     <div class="modal-overlay" id="modal-overlay"></div>
                     <div class="modal" id="modal" >
                         <a class="close-button" id="close-button">
-                            <img src="/img/icons/close.png" alt="">
+                            &times
                         </a>  
                         <form action="server.php" method="post" id="order-form" class="form">
                             <div class="form__wrapper">
@@ -214,13 +237,164 @@
                 </div>
             </div>
         </section>
+        <section class="products">
+            <div class="container prices">
+                <div class="products__title">
+                    <div class="title__main">Какие услуги предлагаем</div> 
+                    <div class="title__about">От вас не требуется специальных знаний или сложных действий. Просто выберите необходимый пакет внедрения,оставьте заявку и заполните небольшой бриф для предварительного расчета стоимости внедрения.</div> 
+                </div>
+                <div class="products__packages">
+                    <ul class="packages__list">
+                        <li class="packages__item">
+                            <div class="packages__item-title">
+                                Пакет "Базовый"
+                                <p>от 16 BYN</p>
+                            </div>
+                            <ul class="packages__item-about">
+                                <li class="about-item">Настройки этапов продаж и мультиворонки</li>
+                                <li class="about-item">Подключение всех источников заявок (сайт, чаты и пр.)</li>
+                                <li class="about-item">Настройка карточки контакта / компании / сделки; заполнение справочников.</li>
+                                <li class="about-item">Импорт клиентской базы.</li>
+                            </ul>
+                            <div class="block__click">
+                                    <a class="price" id="send-request">оставить заявку</a>
+                            </div> 
+                        </li>
+                        <li class="packages__item">
+                            <div class="packages__item-title">
+                                Пакет "Расширенный"
+                                <p>от 32 BYN</p>
+                            </div>
+                            <ul class="packages__item-about">
+                                <li class="about-item">Аудит отдела продаж + описание бизнес-процесса.</li>
+                                <li class="about-item">Разработка и оптимизация бизнес-процесса продаж</li>
+                                <li class="about-item">Интеграция сайта (создание лидов из форм сайта).</li>
+                                <li class="about-item">Внедрение и автоматизация бизнес-процесса. </li>
+                                <li class="about-item">Интеграция с рекламными кабинетами для определенного этапа сделки.</li>
+                            </ul>
+                            <div class="block__click">
+                                    <a class="price" id="send-request">оставить заявку</a>
+                            </div> 
+                        </li>
+                        <li class="packages__item">
+                            <div class="packages__item-title">
+                                Пакет "Профессиональный"
+                                <p>от 48 BYN</p>
+                            </div>
+                            <ul class="packages__item-about">
+                                <li class="about-item">Аудит отдела продаж + описание бизнес-процесса.</li>
+                                <li class="about-item">Разработка и оптимизация бизнес-процесса продаж</li>
+                                <li class="about-item">Бэкап данных с отправкой архива на почту</li>
+                                <li class="about-item">Интеграция с рекламными кабинетами для определенного этапа сделки.</li>
+                                <li class="about-item">Настройка автоматических повторных продаж, путем создания новой сделки.</li>
+                                <li class="about-item">Мониторинг активности ваших пользователей</li>
+                                <li class="about-item">Настройка скоринга лидов</li>
+                            </ul>
+                            <div class="block__click">
+                                <a class="price" id="send-request">оставить заявку</a>
+                            </div>     
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="conclusion-products">
+                    <div class="modal-products" id="modal-products" >
+                        <a href="#" class="close-request">
+                            Закрыть 
+                        </a>  
+                        <form action="server.php" method="post" id="order-form" class="form">
+                            <div class="form__wrapper">
+                                <h3 class="form__title"> Оставьте заявку на внедрение</h3>
+                                <input id="name" class="form__row" type="text" placeholder="Имя">
+                                <input id="phone" class="form__row" type="text" placeholder="Телефон">
+                                <input id="email" class="form__row" type="text" placeholder="E-mail">
+                                <button class="btn-send">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section we">
+            <div class="container we">
+                <div class="we__title">
+                    <img src="/img/me/six.png" class="we__title-icon" >
+                    <span>поводов выбрать нас</span> 
+                </div>
+                <div class="we_content">
+                    <ul class="we__list">
+                        <li class="we__item">
+                            <img src="/img/me/partner .png" alt="" class="we__item-pic">
+                            <p> Официальный партнер </p> 
+                        </li>
+                        <li class="we__item">
+                            <img src="/img/me/shema.png" alt="" class="we__item-pic">
+                            <p> Удобная схема работы</p> 
+                        </li>
+                        <li class="we__item">
+                            <img src="/img/me/setting.png" alt="" class="we__item-pic">
+                            <p> Большой опыт настройки интеграций</p> 
+                        </li>
+                    </ul>
+                    <ul class="we__list">
+                            <li class="we__item">
+                                <img src="/img/me/learn.png" alt="" class="we__item-pic">
+                                <p> Обучение и поддержка клиентов </p> 
+                            </li>
+                            <li class="we__item">
+                                <img src="/img/me/human.png" alt="" class="we__item-pic">
+                                <p> От вас не требуется специальных знаний</p> 
+                            </li>
+                            <li class="we__item">
+                                <img src="/img/me/case.png" alt="" class="we__item-pic">
+                                <p> Настройка системы под ваш бизнес</p> 
+                            </li>
+                        </ul>  
+                </div>
+            </div>
+        </section>
+        <section class="section contacts">
+            <div class="container contacts__block">
+                <div class="contacts__title">
+                    Контакты
+                </div>
+                <div class="form_wrapper">
+                    <div class="contact__title-about">Оставьте заявку и мы свяжемся с Вами в ближайшее время. </div>
+                    <form action="server.php" method="POST">
+                            <input type="text" class="contacts-row" placeholder="Введите ваше имя">
+                            <input type="phone" class="contacts-row" placeholder="Введите ваш телефон">
+                            <input type="email" class="contacts-row" placeholder="Введите ваш email">
+                            <button class="contacts-btn">Отправить</button>
+                    </form>
+                </div>
+                <div class="footer">
+                        <footer class="footer_block">
+                           <div class="footer__left">
+                                <a href="" class="header__logo-link"> crm <span>4</span>u </a>
+                           </div>
+                           <div class="footer__right">
+                                <div class="footer__socials-sprite">
+                                    <ul class="socials__list">
+                                        <li class="socials__item">
+                                            <a href="https://www.instagram.com/crm4you/" target="blank" class="socials__link socials__link-insta" ></a>
+                                        </li>
+                                        <li class="socials__item">
+                                            <a href="https://vk.com/integrator4u" target="blank" class="socials__link socials__link-vk" ></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                           </div>  
+                        </footer>
+                    </div>
+            </div>
+
+        </section>
     </div>
     <div class="fixed__menu">
         <ul class="fixed__menu-list">
             <li class="fixed__menu-item"></li>
         </ul>
     </div>
-    <script type="text/javascript" src="//cdn.callbackhunter.com/cbh.js?hunter_code=441ec4de10e5e209388f16246e1b058b" charset="UTF-8"></script>
     <script src="js/main.js"></script>
     <script src="js/jquery.vide.js"></script>
 </body>
